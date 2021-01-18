@@ -1,0 +1,31 @@
+{
+  "name": "gridsome-remark-embed-svg",
+  "version": "1.0.0",
+  "description": "Embed code svg in makdown with remark and gridsome",
+  "main": "index.js",
+  "keywords": [
+    "svg",
+    "makdown",
+    "gridsome",
+    "plugin"
+  ],
+  "author": "Infogon",
+  "license": "MIT",
+  "dependencies": {
+    "normalize-path": "^3.0.0",
+    "unist-util-visit": "^2.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "remark": "^13.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
