@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Embed code svg in makdown with remark and gridsome",
   "main": "index.js",
+  "homepage": "https://github.com/Gonzalo2310/gridsome-remark-embed-svg/tree/master",
+  "repository": "https://github.com/Gonzalo2310/gridsome-remark-embed-svg/tree/master/#readme",
   "keywords": [
     "svg",
     "makdown",
