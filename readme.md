@@ -13,9 +13,9 @@ yarn add gridsome-remark-embed-svg
 
 #### Basic configuration.
 
-The plugin must be **before** the **@gridsome/remark-prismjs** plugin in the **gridsome.config.js** configuration to work properly.
+The plugin must be placed **before** the **@gridsome/remark-prismjs** plugin in the **gridsome.config.js** configuration to work properly.
 
-This is because the **primjs** will transpose the markdown code to html and then the markups necessary for the plugin to work will be lost.
+This is because the **primjs** will transpose the markdown code to html, and not placing the plugin in the correct sequence might loose the required plugin markups.
 
 Example:
 
